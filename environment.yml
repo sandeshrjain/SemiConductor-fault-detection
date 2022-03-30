@@ -19,7 +19,5 @@ dependencies:
   - tqdm
   - pip
   - pip:
-    - easydict
-    - git+https://github.com/Charmve/Surface-Defect-Detection.git
     - opencv-python
     - scikit-image
