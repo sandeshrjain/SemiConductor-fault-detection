@@ -1,0 +1,25 @@
+name: fault_det
+channels:
+  - pytorch
+  - pytorch3d
+  - menpo
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - opencv
+  - pandas
+  - pillow
+  - python=3.7
+  - pytorch==1.10.0
+  - torchvision==0.11.1
+  - cudatoolkit==11.3
+  - scipy
+  - tqdm
+  - pip
+  - pip:
+    - easydict
+    - git+https://github.com/Charmve/Surface-Defect-Detection.git
+    - opencv-python
+    - scikit-image
